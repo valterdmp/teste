@@ -8440,7 +8440,7 @@ td.fc-today {
 .p-dropdown .p-dropdown-content > li a,
 .p-dropdown ul.p-dropdown-content ul > li a,
 .p-dropdown ul.p-dropdown-content > li a {
-  line-height: 36px; /*Valter*/
+  line-height: 26px; /*Valter*/
   white-space: nowrap;
   display: block;
   padding: 2px 8px;
