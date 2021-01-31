@@ -34,19 +34,29 @@
         <header id="header" data-transparent="true" data-fullwidth="false" data-responsive-fixed="true" data-sticky-active="400" class="dark submenu-light">
             <div class="header-inner" data-animate="fadeInDownBig">
                 <div class="container">
+                    <div id="mainMenu">
+                        <div class="container">
+                            <nav>
+                                <ul>                        
+                                    <li class="p-dropdown d-none d-md-block">
+                                        <a><i class="icon-globe"></i>PT</a>
+                                        <ul class="p-dropdown-content">
+                                            <li><a href="en/about" class="text-center">English</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div> 
                     <!--Header Extras-->
-                    <div class="header-extras">
-                        <ul>
-                            <li>
-                                <div class="p-dropdown">
-                                    <a><i class="icon-globe"></i><span class="text-bold">PT</span></a>
-                                    <ul class="p-dropdown-content">
-                                        <li><a href="/en" hreflang="en">English</a></li>
-                                    </ul>
-                                </div>
-                            </li> 
-                        </ul>
-                    </div>        
+                    <div id="mainMenu-trigger">
+                        <div class="p-dropdown">
+                            <ul class="text-light"><i class="icon-globe"></i> PT</ul>
+                                <ul class="p-dropdown-content">
+                                    <li><a href="en/about" class="text-center">English</a></li>
+                                </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
