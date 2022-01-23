@@ -27,6 +27,29 @@
                   camera-controls
                   auto-rotate ar>
     </model-viewer>
+    
+    
+    <model-viewer src="poly2.glb"
+                  poster="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717"
+                  alt="A 3D model of an astronaut"
+                  shadow-intensity="1"
+                  camera-controls
+                  auto-rotate ar>
+    </model-viewer>
+    
+    <model-viewer bounds="tight" src="poly2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b%2Fposter-astronaut.png?v=1599079951717" shadow-intensity="1">
+
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
+
   
   
   
