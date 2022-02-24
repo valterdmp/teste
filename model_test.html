@@ -107,24 +107,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="container">
                 <div class="grid-layout grid-2-columns p-b-50" data-item="grid-item" data-margin="30" data-lightbox="gallery">            
                     <div class="grid-item">
-                            <img src="images/products/farol28.jpg" class="img-fluid rounded">
+                        <img src="images/products/farol28.jpg" class="img-fluid rounded">
                     </div>
                     <div class="grid-item">
-                            <img src="images/products/farol27.jpg" class="img-fluid rounded">
+                        <img src="images/products/farol27.jpg" class="img-fluid rounded">
                     </div>
                     <div class="grid-item">
-                            <img src="images/products/farolb2.jpg" class="img-fluid rounded">
+                        <img src="images/products/farolb2.jpg" class="img-fluid rounded">
                     </div>
                     <div class="grid-item">
-                            <img src="images/products/farol291.jpg" class="img-fluid rounded">
+                        <img src="images/products/farol291.jpg" class="img-fluid rounded">
+                    </div>
                 
-                    <!--div class="grid-item d-block d-md-none large-width d-none d-md-block">                        
-                        <model-viewer src="raw.glb"
-                                      loading="eager"
-                                      camera-controls
-                                      auto-rotate ar
-                                      ar ar-modes="webxr scene-viewer quick-look">
-                        </model-viewer-->
+                    <div class="grid-item d-block d-md-none large-width d-none d-md-block">                        
+                        <model-viewer 
+                        src="2.glb" 
+                        ar ar-modes="webxr scene-viewer quick-look" 
+                        camera-controls
+                        camera-orbit="-454.7deg 92.2deg auto" 
+                        environment-image="neutral">
+                        <button slot="ar-button" id="ar-button">Ver no espaço</button>
+                            <div id="ar-prompt"><img src="https://modelviewer.dev/shared-assets/icons/hand.png"></div>
+                        </model-viewer>
                     </div>
                     <div class="grid-item d-block d-md-none large-width d-none d-md-block">                        
                         <model-viewer src="finalfinal2.glb"
@@ -135,7 +139,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </model-viewer>
                     </div>
                 </div>
-                
                 
                 <div id='product-component-1630342756143'></div>
                 <hr class="space">
