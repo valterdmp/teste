@@ -30,6 +30,7 @@
     <script>$(document).ready(function(){
     $('#topbar-pt').load("topbar.html");
     $('#header-pt').load("header.html");
+    $('#logo.').load("logo.html");
     $('#footer-pt').load("footer-pt.html");
     });</script>
 </head>
@@ -41,12 +42,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="body-inner">
         
         
-       <div id="topbar" class="dark topbar-fullwidth">
-            <div id="topbar-pt"></div>
+        <div id="topbar" class="dark topbar-fullwidth">
+            <div class="row" id="topbar-pt">
+                <li></li>
+            </div>
         </div>
+        
+        
         <!-- Header -->
-          <header id="header" data-transparent="true" data-fullwidth="false" data-responsive-fixed="true" data-sticky-active>
-            <div id="header-pt" class="header-inner" data-animate="fadeInDownBig">
+        <header id="header" data-transparent="true" data-fullwidth="false" data-responsive-fixed="true" data-sticky-active=>
+            <div  class="header-inner" data-animate="fadeInDownBig">
+                <div id="logo." class="container">
+                    <div id="logo">
+                        <a href="/">
+                            <span class="logo-default"><img style="max-width: 130px;" src="images/logop.png" tag="Home"></span>
+                            <span class="logo-dark"><img style="max-width: 130px;" src="images/logob.png" tag="Home"></span>
+                        </a>
+                    </div>
+                    <div id="mainMenu-trigger">
+                        <a class="lines-button x" tag="menu-open"><span class="lines" tag="menu-close"></span></a>
+                    </div>
+                    <div id="mainMenu">
+                        <div class="container">
+                            <nav>
+                                <ul id="header-pt"></ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
         
